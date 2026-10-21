@@ -1,0 +1,44 @@
+# Dependencies
+node_modules/
+
+# Expo and generated native projects
+.expo/
+dist/
+web-build/
+expo-env.d.ts
+/android
+/ios
+
+# Local environment files (keep examples shareable)
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# Tool caches and generated output
+.metro-health-check*
+coverage/
+.eslintcache
+*.tsbuildinfo
+*.log
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# Local-only tooling artifacts
+.claude/settings.json
+.firecrawl/
+docs/superpowers/plans/
+
+# Keys, signing files, and machine-specific files
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.pem
+*.mobileprovision
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
