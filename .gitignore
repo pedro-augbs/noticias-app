@@ -28,7 +28,7 @@ yarn-error.*
 # Local-only tooling artifacts
 .claude/settings.json
 .firecrawl/
-docs/superpowers/plans/
+/docs/
 
 # Keys, signing files, and machine-specific files
 *.orig.*
